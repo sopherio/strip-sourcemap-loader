@@ -1,4 +1,4 @@
-var re = /^\/\/#\ssourceMappingURL(.+)$/gm;
+var re = /^\s*\/\/#\ssourceMappingURL(.+)$/gm;
 
 module.exports = function(src) {
     this.cacheable();
